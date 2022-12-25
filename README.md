@@ -49,12 +49,23 @@ confirmation popup should display and upon confirmation, should delete the card.
 3. This data is generated using Faker.js library and can be accessed locally.
 4. Screenshot of Dummy data from API.
 ![image](https://user-images.githubusercontent.com/62555809/209458662-f92c3545-9a08-4b02-a61d-98525cde262b.png)
-5. The user image url is dynamically fetched according to their username:
-6. Code Snippet:
+5. The user image url is dynamically fetched according to their username from this API: https://avatars.dicebear.com/v2/avataaars/{{username}}.svg?options[mood][]=happy
+6. Code Snippet: <br>
 ![image](https://user-images.githubusercontent.com/62555809/209458705-8be3bbd0-3d39-4503-9ab4-d82af1607572.png)
 7. Screenshot:
 ![image](https://user-images.githubusercontent.com/62555809/209458722-1cd44e89-c09a-4a30-a410-9c59a08e66fb.png)
- 
+8. The UI framework used is Bootstrap and React-Bootstrap. 
+9. While the API data is being fetched, a loading animation appears.
+10. Source Code: https://tobiasahlin.com/spinkit/
+![image](https://user-images.githubusercontent.com/62555809/209458830-8f5a7876-27f9-4225-bfe9-0861096767de.png)
+11. Every card has a Like, Edit and Delete where they can be liked, edited and deleted respectively.
+12. Clicking the Like button toggles it's state and changes it's color to red.
+![image](https://user-images.githubusercontent.com/62555809/209458913-95216589-03a0-4e37-9e8a-e1ee50434398.png)
+13. Upon clicking the Edit button, a modal pops up which contains the data of selected card and the card data can be updated by clicking the Save button
+![image](https://user-images.githubusercontent.com/62555809/209458960-ba81d17f-2db2-4005-881b-030944116ea1.png)
+14. Likewise upon clicking the Delete button, a modal pops up which confirms the deletion of the card by clicking the Yes button
+![image](https://user-images.githubusercontent.com/62555809/209458969-29815ab2-c5ef-4513-a2ac-69f6b61149ec.png)
+15. NOTE - All the data manipulation and deletion is done locally with the help of react, the modified data is not sent to the backend using a POST request because it was not mentioned in the problem statement.
 
 
 
