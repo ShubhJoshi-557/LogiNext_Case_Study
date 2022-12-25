@@ -44,7 +44,7 @@ confirmation popup should display and upon confirmation, should delete the card.
 
 ## Solution
 
-1. Since the API schema was mentioned and the actual API link wasn't provided, I went ahead and created a JSON server which hosts an API.
+1. Since the API schema was mentioned and the actual API link wasn't provided, I went ahead and created a JSON server which hosts an API. Link to JSON Server Repository: https://github.com/ShubhJoshi-557/JSON_Server
 2. This API contains the desired schema and has dummy data of 10 users as per the mentioned requirement.
 3. This data is generated using Faker.js library and can be accessed locally.
 4. Screenshot of Dummy data from API.
