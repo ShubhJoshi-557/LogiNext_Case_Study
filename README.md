@@ -67,6 +67,9 @@ confirmation popup should display and upon confirmation, should delete the card.
 ![image](https://user-images.githubusercontent.com/62555809/209458969-29815ab2-c5ef-4513-a2ac-69f6b61149ec.png)
 15. NOTE - All the data manipulation and deletion is done locally with the help of react, the modified data is not sent to the backend using a POST request because it was not mentioned in the problem statement.
 
+## Demo Video
+
+https://drive.google.com/file/d/19rcwu4lcGSGbSIh8FncPYm5hsu6jyOtl/view?usp=sharing
 
 
 
