@@ -36,3 +36,26 @@ confirmation popup should display and upon confirmation, should delete the card.
 
 - API for avatars: https://avatars.dicebear.com/v2/avataaars/{{username}}.svg?options[mood][]=happy
 - Source Code for Loading Animation: https://tobiasahlin.com/spinkit/
+
+## Desired Output
+
+![image](https://user-images.githubusercontent.com/62555809/209458561-08e4a200-a16f-455b-8bf2-b7484f4487c5.png)
+![image](https://user-images.githubusercontent.com/62555809/209458569-c6f5952f-03d5-4815-973d-f6188fa7467e.png)
+
+## Solution
+
+1. Since the API schema was mentioned and the actual API link wasn't provided, I went ahead and created a JSON server which hosts an API.
+2. This API contains the desired schema and has dummy data of 10 users as per the mentioned requirement.
+3. This data is generated using Faker.js library and can be accessed locally.
+4. Screenshot of Dummy data from API.
+![image](https://user-images.githubusercontent.com/62555809/209458662-f92c3545-9a08-4b02-a61d-98525cde262b.png)
+5. The user image url is dynamically fetched according to their username:
+6. Code Snippet:
+![image](https://user-images.githubusercontent.com/62555809/209458705-8be3bbd0-3d39-4503-9ab4-d82af1607572.png)
+7. Screenshot:
+![image](https://user-images.githubusercontent.com/62555809/209458722-1cd44e89-c09a-4a30-a410-9c59a08e66fb.png)
+ 
+
+
+
+
