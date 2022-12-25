@@ -71,5 +71,6 @@ confirmation popup should display and upon confirmation, should delete the card.
 
 https://drive.google.com/file/d/19rcwu4lcGSGbSIh8FncPYm5hsu6jyOtl/view?usp=sharing
 
-
+## Link to Zip file
+https://drive.google.com/file/d/1VXd4G1KyiWJmu4hAf8XAV9V1Dv2_c_k0/view?usp=sharing
 
