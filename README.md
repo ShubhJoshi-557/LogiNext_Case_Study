@@ -34,3 +34,5 @@ confirmation popup should display and upon confirmation, should delete the card.
 ]
 ```
 
+- API for avatars: https://avatars.dicebear.com/v2/avataaars/{{username}}.svg?options[mood][]=happy
+- Source Code for Loading Animation: https://tobiasahlin.com/spinkit/
