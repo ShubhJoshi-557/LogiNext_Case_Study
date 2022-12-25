@@ -27,6 +27,7 @@ const EditModal = ({ user, show, handleClose, handleEdit }) => {
                 name="name"
                 defaultValue={newUser.name}
                 onChange={handleChange}
+                required
                 autoFocus
               />
             </Form.Group>
@@ -37,15 +38,18 @@ const EditModal = ({ user, show, handleClose, handleEdit }) => {
                 name="email"
                 defaultValue={newUser.email}
                 onChange={handleChange}
+                required
               />
             </Form.Group>
             <Form.Group className="mb-3" controlId="phone">
               <Form.Label>Phone Number</Form.Label>
               <Form.Control
-                type="phone"
+                type="tel"
                 name="phone"
+                pattern="^[789]\d{9,9}$"
                 defaultValue={newUser.phone}
                 onChange={handleChange}
+                required
               />
             </Form.Group>
             <Form.Group className="mb-3" controlId="website">
@@ -55,6 +59,7 @@ const EditModal = ({ user, show, handleClose, handleEdit }) => {
                 name="website"
                 defaultValue={newUser.website}
                 onChange={handleChange}
+                required
               />
             </Form.Group>
           </Modal.Body>
